@@ -1,2 +1,2 @@
-# Praticando_Node_STACKX
+# Praticando_NodeJs_STACKX
  Aulas práticas do módulo Web 3.0
