@@ -1,14 +1,14 @@
-// CRIAÇÃO DE SERVIDOR UTILIZANDO SOMENTE NODE 
-const http = require("http");
+// // CRIAÇÃO DE SERVIDOR UTILIZANDO SOMENTE NODE 
+// const http = require("http");
 
-const hostname = "localhost";
+// const hostname = "localhost";
 
-const server = http.createServer( (requeste, response) => {
-    response.statusCode = 200;
-    response.setHeader("Content-Type", "text/plain");
-    response.end("Servidor rodando em localhost:3333, usuário: Leonardo");
-});
+// const server = http.createServer( (requeste, response) => {
+//     response.statusCode = 200;
+//     response.setHeader("Content-Type", "text/plain");
+//     response.end("Servidor rodando em localhost:3333, usuário: Leonardo");
+// });
 
-server.listen(3333, hostname, () => {
-    console.log("");
-});
+// server.listen(3333, hostname, () => {
+//     console.log("");
+// });
